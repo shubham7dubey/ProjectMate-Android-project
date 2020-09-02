@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ProjectMate</string>
+    <string name="password">Password</string>
+    <string name="sign_up">  SignUp   </string>
+    <string name="email">email</string>
+    <string name="user_signup">User SignUp</string>
+    <string name="title_activity_front__menu">ProjectMate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Welcome User</string>
+    <string name="nav_header_subtitle">ProjectMate Team</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Sign Out</string>
+    <string name="Department">Department</string>
+    <string name="roll">Roll no</string>
+    <string name="mob">Mobile no</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_content_view">contentView</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+</resources>

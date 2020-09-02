@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="#bb93f2"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+    <TextView
+        android:id="@+id/User_Signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/user_signup"
+        android:textSize="36sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+
+        />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="101dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="110dp"
+        android:text="Full Name"
+
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="170dp"
+        android:background="@drawable/rounded_text"
+        android:layout_marginTop="105dp"
+
+        android:hint="Full Name......"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="170dp"
+        android:text="Course"
+        android:textColor="@color/black"
+
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/course_Input"
+        android:layout_width="wrap_content"
+
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="165dp"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="Course........"
+        android:background="@drawable/rounded_text"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/email_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="230dp"
+        android:text="Email"
+
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/email_signup__Input"
+        android:layout_width="wrap_content"
+
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="225dp"
+        android:background="@drawable/rounded_text"
+        android:autofillHints=""
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="email@pm.com"
+        android:inputType="textEmailAddress" />
+    <TextView
+        android:id="@+id/password_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="290dp"
+        android:text="@string/password"
+
+        android:textSize="18sp"
+        android:layout_marginStart="70dp" />
+
+    <EditText
+        android:id="@+id/password_signup__Input"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="285dp"
+        android:background="@drawable/rounded_text"
+        android:autofillHints=""
+        android:hint="atleast 6 characters..."
+        android:inputType="textPassword" />
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="350dp"
+        android:text="@string/Department"
+
+        android:textSize="18sp"
+        android:layout_marginStart="70dp" />
+
+    <EditText
+        android:id="@+id/Department__Input"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="345dp"
+        android:background="@drawable/rounded_text"
+        android:autofillHints=""
+        android:hint="@string/Department"
+        android:inputType="text" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="410dp"
+        android:text="@string/roll"
+
+        android:textSize="18sp"
+        android:layout_marginStart="70dp" />
+
+    <EditText
+        android:id="@+id/roll__Input"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="405dp"
+        android:background="@drawable/rounded_text"
+        android:autofillHints=""
+        android:hint="eg: 184CA075"
+        android:inputType="text" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="470dp"
+        android:text="@string/mob"
+
+        android:textSize="18sp"
+        android:layout_marginStart="70dp" />
+
+    <EditText
+        android:id="@+id/mob__Input"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="465dp"
+        android:background="@drawable/rounded_text"
+        android:autofillHints=""
+        android:hint="Preffered WA no"
+        android:inputType="phone" />
+
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="530dp"
+        android:text="@string/sign_up"
+        android:textSize="24sp"
+        android:layout_marginStart="140dp"
+        android:background="@drawable/rounded_button"
+        />
+
+        <ProgressBar
+            android:id="@+id/pb1"
+            android:layout_width="80dp"
+
+            android:layout_height="80dp"
+        android:layout_marginTop="250dp"
+            android:layout_marginLeft="150dp"
+            />
+    </RelativeLayout>
+
+</ScrollView>

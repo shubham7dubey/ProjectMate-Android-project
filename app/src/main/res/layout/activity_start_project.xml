@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartProject"
+    android:orientation="vertical"
+    android:background="#bb93f2"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+         />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="10dp"
+      android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_text"
+
+        android:hint="add title"
+        android:layout_marginLeft="57dp" />
+
+</LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingLeft="10dp">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Members"
+          android:textStyle="italic"
+          android:textColor="@color/black"
+          />
+
+      <EditText
+          android:id="@+id/req"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:layout_marginRight="10dp"
+          android:padding="10dp"
+
+          android:background="@drawable/rounded_text"
+
+          android:hint="Required"
+          android:layout_marginLeft="25dp" />
+
+
+
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:padding="10dp" >
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_marginTop="15dp"
+          >
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Technical"
+              android:textStyle="italic"
+              android:textColor="@color/black"
+              />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Requirements"
+              android:textColor="@color/black"
+              />
+      </LinearLayout>
+
+        <EditText
+            android:id="@+id/tech"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_text"
+            android:layout_marginLeft="10dp"
+            android:hint="Technical Req. for your project" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+
+        android:layout_height="300dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/rounded_text"
+        android:layout_margin="30dp"
+
+        android:gravity="start"
+        android:hint="add description to your project................"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/createbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"
+        android:text="Create"
+        android:background="@drawable/rounded_button"
+        />
+</LinearLayout>
